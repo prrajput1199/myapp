@@ -1,0 +1,75 @@
+
+.taskContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    /* overflow-y: auto;
+  overflow-x: auto; */
+    font-size: 0.8rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    /* padding: 0 2px; */
+}
+
+.heading h3{
+    margin: 0 10px;
+}
+
+.singlecomponent{
+    margin: 0 10px;
+}
+
+.componentdetails{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.icons .plus{
+    margin-right: 6px;
+}
+
+@media screen and (max-width: 1119px){
+   
+    .singlecomponent{
+        margin: 0 20px;
+    }
+    
+}
+
+@media screen and (max-width: 903px){
+   
+    .singlecomponent{
+        margin: 0 20px;
+    }
+    
+}
+
+@media screen and (max-width: 903px){
+   
+    .taskContent{
+      display: flex;
+      justify-content: center;
+      /* place-items:center; */
+    }
+    
+  }
+
+  @media screen and (max-width: 903px){
+   
+    .header{
+      display: flex;
+      justify-content: center;
+      /* place-items:center; */
+    }
+    
+  }

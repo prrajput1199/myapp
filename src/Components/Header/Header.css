@@ -1,0 +1,103 @@
+.header {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.button {
+  width: 80px;
+  height: 25px;
+  background-color: white;
+  position: absolute;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+.buttons {
+  width: 80px;
+  height: 22px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.options {
+  width: 250px;
+  height: 80px;
+  background-color: rgb(236, 241, 244);
+  /* position: absolute; */
+  position: relative;
+  top: 56px;
+  left: 39px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.options .grouping {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options .grouping span {
+  margin-left: 10px;
+}
+.options .ordering span {
+  margin-left: 10px;
+}
+.options .ordering {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 903px) {
+  .app {
+    display: flex;
+    justify-content: center;
+  }
+
+  .options {
+    /* position: absolute; */
+    top: 60px;
+    left: 39px;
+    border: 1px solid black;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 903px) {
+  .app {
+    display: flex;
+    justify-content: center;
+  }
+
+  .options {
+    /* position: absolute; */
+    top: 60px;
+    left: 39px;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 60vw;
+  }
+}
